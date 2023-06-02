@@ -4,12 +4,16 @@ console.log("JS file connected");
 /* This is a block comment in JS, this akllows us to write 
 multiple lines of comments */
 
-//the value of score can change, because we use let
-let score = 0;
-score = 200;
 
-//check value of score
-console.log(score);
+//check value of 
+console.log(playerGenre);
+
+const buy = document.querySelector("#playerGenre").addEventListener('click' , clickEvent);
+
+document.querySelector('.section').addEventListener('click' ,clickEvent);
+
+const audioButtons = document.querySelectorAll("#player button");
+console.log(audioButtons);
 
 const playerName = "Marley";
 //playerName = "Marley";
@@ -19,19 +23,41 @@ const playerName = "Marley";
 //playerName = "Cobain";
 //playerName = "Smith";
 
+const playerGenre = "Grunge";
+//playerGenre = "Alternative Rock"
+//playerGenre = "Pop"
+//playerGenre = "Rock"
+//playerGenre = "Reggae"
+
+
 // function declaration
-function showPlayerScore() {
-    console.log("Name: " + playerName + ", Score: " + score);
+function showPlayerGenre() {
+    console.log("Marley" + playerName + "Genre" + playerGenre);
+}
+
+
+function showPlayerName() {
+    console.log(playerName);
+}
+
+
+function clickEvent(e) {
+    var value = e;
+    console.log(value);
 }
 
 //Calling Function
-showPlayerScore();
 
 //a function that takes parameters and returns a value
 
-function addNumbers(num1, num2) {
-    let total = num1 + num2;
+function declaration(playerName, showPlayerGenre) {
+    let total = playerName + playerGenre;
     return total;
 }
 
-console.log(addNumbers(25,45));
+console.log(declaration("bob marley",reggae));
+console.log(declaration("freddie mercury",alternative));
+console.log(declaration("john lennon", pop));
+console.log(declaration("jimi hendrix",rock));
+console.log(declaration("kurt cobain", grunge));
+console.log(declaration("robert smith",rock));
