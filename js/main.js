@@ -4,12 +4,16 @@ console.log("JS file connected");
 /* This is a block comment in JS, this akllows us to write 
 multiple lines of comments */
 
-//the value of score can change, because we use let
-let score = 0;
-score = 200;
 
-//check value of score
-console.log(score);
+//check value of 
+console.log(playerGenre);
+
+const buy = document.querySelector("#playerGenre");
+
+document.querySelector('.section').addEventListener('click' ,clickEvent);
+
+const audioButtons = document.querySelectorAll("#player button");
+console.log(audioButtons);
 
 const playerName = "Marley";
 //playerName = "Marley";
@@ -19,13 +23,25 @@ const playerName = "Marley";
 //playerName = "Cobain";
 //playerName = "Smith";
 
+const playerGenre = "Grunge";
+//playerGenre = "Alternative Rock"
+//playerGenre = "Pop"
+//playerGenre = "Rock"
+//playerGenre = "Reggae"
+
+
 // function declaration
-function showPlayerScore() {
-    console.log("Name: " + playerName + ", Score: " + score);
+function showPlayerGenre() {
+    console.log("Marley" + playerName + "Genre" + playerGenre);
+}
+
+function clickEvent(e) {
+    var value = e;
+    console.log(value);
 }
 
 //Calling Function
-showPlayerScore();
+showPlayerGenre();
 
 //a function that takes parameters and returns a value
 
