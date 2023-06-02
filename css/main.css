@@ -5,6 +5,18 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-container div{
+    width: 50%;
 }
 
 input, textarea {
@@ -14,7 +26,7 @@ input, textarea {
 }
 
 
-#bobmarley {
+/* #bobmarley {
     min-width: 600px;
     margin: 0 auto;
 }
@@ -42,4 +54,4 @@ input, textarea {
 #kurtcobain {
     min-width: 600px;
     margin: 0 auto;
-}
+} */
