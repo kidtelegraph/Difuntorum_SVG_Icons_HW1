@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 101.58 185.64">
+<svg id="b_marley_object" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 101.58 185.64">
   <defs>
     <style>
       .cls-1 {
@@ -149,6 +149,27 @@
       .cls-37 {
         fill: #7b7a7c;
       }
+
+    #b_marley {
+		transition: all 0.5s ease;
+		transform-origin: center;
+	}
+
+	#greytext {
+		transition: all .8s ease;
+	}
+
+	#b_marley-object:hover #greytext {
+		fill: red;
+		transform: rotate(60deg);
+	}
+
+	#b_arley-object:hover #bgcircle {
+		fill: green;
+	}
+
+
+
     </style>
 const badge = document.querySelector("#badge");
 //console.log(badge);
