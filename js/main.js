@@ -8,7 +8,11 @@ multiple lines of comments */
 //check value of 
 console.log(playerGenre);
 
+<<<<<<< Updated upstream
 const buy = document.querySelector("#playerGenre");
+=======
+const buy = document.querySelector("#playerGenre").addEventListener('click' , clickEvent);
+>>>>>>> Stashed changes
 
 document.querySelector('.section').addEventListener('click' ,clickEvent);
 
@@ -35,19 +39,34 @@ function showPlayerGenre() {
     console.log("Marley" + playerName + "Genre" + playerGenre);
 }
 
+<<<<<<< Updated upstream
+=======
+function showPlayerName() {
+    console.log(playerName);
+}
+
+>>>>>>> Stashed changes
 function clickEvent(e) {
     var value = e;
     console.log(value);
 }
 
 //Calling Function
+<<<<<<< Updated upstream
 showPlayerGenre();
+=======
+>>>>>>> Stashed changes
 
 //a function that takes parameters and returns a value
 
-function addNumbers(num1, num2) {
-    let total = num1 + num2;
+function declaration(playerName, showPlayerGenre) {
+    let total = playerName + playerGenre;
     return total;
 }
 
-console.log(addNumbers(25,45));
+console.log(declaration("bob marley",reggae));
+console.log(declaration("freddie mercury",alternative));
+console.log(declaration("john lennon", pop));
+console.log(declaration("jimi hendrix",rock));
+console.log(declaration("kurt cobain", grunge));
+console.log(declaration("robert smith",rock));
