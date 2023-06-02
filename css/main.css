@@ -24,11 +24,17 @@ input, textarea {
     margin: 0 auto;
 }
 
+#johnlennon {
+    min-width: 600px;
+    margin: 0 auto;
+}
+
 #jimihendrix {
     min-width: 600px;
     margin: 0 auto;
 }
 
+<<<<<<< Updated upstream
 #johnlennon {
     min-width: 600px;
     margin: 0 auto;
@@ -43,3 +49,10 @@ input, textarea {
     min-width: 600px;
     margin: 0 auto;
 }
+=======
+#kurtcobain {
+    min-width: 600px;
+    margin: 0 auto;
+}
+
+>>>>>>> Stashed changes
