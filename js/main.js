@@ -8,11 +8,7 @@ multiple lines of comments */
 //check value of 
 console.log(playerGenre);
 
-<<<<<<< Updated upstream
-const buy = document.querySelector("#playerGenre");
-=======
 const buy = document.querySelector("#playerGenre").addEventListener('click' , clickEvent);
->>>>>>> Stashed changes
 
 document.querySelector('.section').addEventListener('click' ,clickEvent);
 
@@ -39,23 +35,18 @@ function showPlayerGenre() {
     console.log("Marley" + playerName + "Genre" + playerGenre);
 }
 
-<<<<<<< Updated upstream
-=======
+
 function showPlayerName() {
     console.log(playerName);
 }
 
->>>>>>> Stashed changes
+
 function clickEvent(e) {
     var value = e;
     console.log(value);
 }
 
 //Calling Function
-<<<<<<< Updated upstream
-showPlayerGenre();
-=======
->>>>>>> Stashed changes
 
 //a function that takes parameters and returns a value
 
